@@ -16,6 +16,8 @@ __system_property_get("ro.build.version.release", version_release);
 __system_property_get("ro.build.fingerprint", version_release);
 __system_property_get("ro.product.model", device);
 __system_property_get("ro.build.display.id", build_id);
+
+
   
 [+] Overseer found a path !
 [-] No path found, let's hope
